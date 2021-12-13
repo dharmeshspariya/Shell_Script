@@ -1,9 +1,9 @@
 #!/bin/sh
 a=0
-while [ "$a" -lt 10 ]    # this is loop1
+while [ "$a" -lt 10 ] 
 do
    b="$a"
-   while [ "$b" -ge 0 ]  # this is loop2
+   while [ "$b" -ge 0 ] 
    do
       echo -n "$b "
       b=`expr $b - 1`
