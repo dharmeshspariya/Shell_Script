@@ -1,0 +1,34 @@
+quick learn.
+
+https://www.tutorialspoint.com/unix/unix-quick-guide.htm
+
+https://github.com/NishkarshRaj/Automation-using-Shell-Scripts/blob/master/Shell%20Scripting%20Basics/Basic%20Script%20with%20User%20Input.sh
+
+Bash scripting 
+Bash is a uniquie shell command language.
+pwd:- u are in working directory
+touch:- create file
+nano test.txt:- to edit file
+cat test.txt:- to display content
+less test.txt:- go to editor
+grep echo test.txt:- to search some line in file
+grep echo test.txt | wc:- word count
+grep echo test.txt | wc -w:- total no. of word
+grep echo test.txt | wc -m:- total no. of characters
+halt:-Brings the system down immediately
+init 0:-Powers off the system using predefined scripts to synchronize and clean up the system prior to shutting down
+init 6:-Reboots the system by shutting it down completely and then restarting it
+poweroff:-Shuts down the system by powering off
+reboot:-Reboots the system
+shutdown:-Shuts down the system
+-eq:-Checks if the value of two operands are equal or not; if yes, then the condition becomes true. [ $a -eq $b ] is not true.
+-ne:-Checks if the value of two operands are equal or not; if values are not equal, then the condition becomes true.[ $a -ne $b ] is true.
+-gt:-Checks if the value of left operand is greater than the value of right operand; if yes, then the condition becomes true.[ $a -gt $b ] is not true.
+-lt:-Checks if the value of left operand is less than the value of right operand; if yes, then the condition becomes true.[ $a -lt $b ] is true.
+-ge:-Checks if the value of left operand is greater than or equal to the value of right operand; if yes, then the condition becomes true. 	[ $a -ge $b ] is not true.
+-le:-Checks if the value of left operand is less than or equal to the value of right operand; if yes, then the condition becomes true.
+[ $a -le $b ] is true.
+!:-[ ! false ] is true.
+-o:-OR [ $a -lt 20 -o $b -gt 100 ] is true.
+-a:- AND [ $a -lt 20 -a $b -gt 100 ] is false. 
+

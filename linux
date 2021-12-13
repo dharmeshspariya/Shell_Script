@@ -1,0 +1,69 @@
+Linux command line 
+uname:- name fo linux
+uname -r recurcive 
+uname -a all
+halt:-Brings the system down immediately
+init 0:-Powers off the system using predefined scripts to synchronize and clean up the system prior to shutting down
+init 6:-Reboots the system by shutting it down completely and then restarting it
+poweroff:-Shuts down the system by powering off
+reboot:-Reboots the system
+shutdown:-Shuts down the system
+history:- for all history
+touch text.txt:- create text file
+rm text.txt:- remove
+mkdir dd:- create dir
+rmdir dd:- delete dir
+cp text.txt /home :- to copy the file in path
+Stat Desktop:- for details of that dir
+ls -al list of file with details.					
+permision
+r=4
+w=2
+x=1
+admin rwx
+group rx
+public rx
+chmod 764
+ls
+ls -l details of file which is available in directory
+rm file name to delete the file
+pwd where we are in corrent directory
+umask:- check the mask
+chmod:- change mod
+touch a,b,c
+chmod g=w,o-r b
+chown:- change ownership
+chown alice:alice a:- to give owner to a from other user
+chcon -t etc_t a:- for changing admin home
+which perl
+neno hello.pl:- to create perl file
+create python file and execute 
+	nano hello.py
+	chmod 755 hello.py
+	python3 hello.py
+./hello.sh | wc:- for details of character o/p:-1 2 13
+df
+df -h:- to know abt file space details
+du -h home/ubuntu :- total space of dir. 
+
+ln make line btw file
+cp copy file and directory
+echo print the statment 
+\t use for tab or space btw word
+\n for new line
+head:- firest 10 line from the output
+tails:- last 10 lines from the output
+ 
+less ubuntu/text/open.txt (* to open multiple file) 
+	(:n) to nevigate for next file 
+	(:p) to previous file
+
+linux server command
+w:- which user login
+last:- for who user login last
+passwd username:- to change pwd for user
+useradd username:- for creating user
+systemctl start httpd.service:- to start service 
+DHCP(Dynamic host configure protocol) operates on UDP port 68 & 67 Discovery.offer,request,acknowladge
+DNS(Domain Name syatem) operstes both TCP & UDP 53 
+
